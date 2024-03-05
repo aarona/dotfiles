@@ -1,0 +1,10 @@
+aliases
+
+\.git
+\.gitignore
+
+.+~
+
+^/README.*
+^/LICENSE.*
+^/COPYING

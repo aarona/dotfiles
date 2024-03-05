@@ -1,0 +1,8 @@
+# RVM related aliases
+alias rl="rvm list"
+alias ru="rvm use"
+alias rgl="rvm gemset list"
+alias rgu="rvm gemset use"
+alias rgc="rvm gemset create"
+alias rge="rvm gemset empty"
+alias rgd="rvm gemset delete"

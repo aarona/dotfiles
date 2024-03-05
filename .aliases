@@ -1,0 +1,21 @@
+alias vim="nvim"
+
+# Import ZSH specific aliases if installed
+if command -v zsh &> /dev/null; then
+    . ~/dotfiles/aliases/zsh
+fi
+
+# Import work related aliases/ENV vars if file is set up.
+if [ -f ~/dotfiles/aliases/work ]; then
+    . ~/dotfiles/aliases/work
+fi
+
+# Import RVM related aliases if installed
+if command -v rvm &> /dev/null; then
+    . ~/dotfiles/aliases/rvm
+fi
+
+# Import Git related aliases if installed
+if command -v git &> /dev/null; then
+    . ~/dotfiles/aliases/git
+fi

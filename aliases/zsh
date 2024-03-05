@@ -1,0 +1,10 @@
+# ZSH config related aliases
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
+alias zs="source ~/.zshrc"
+
+# Navigation aliases
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias back="cd -"
