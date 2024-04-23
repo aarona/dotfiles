@@ -1,8 +1,15 @@
-alias vim="nvim"
+# Common aliases
+. ~/dotfiles/aliases/common
+. ~/dotfiles/aliases/debian
 
 # Import ZSH specific aliases if installed
 if command -v zsh &> /dev/null; then
     . ~/dotfiles/aliases/zsh
+fi
+
+# Import Ruby on Rails related aliases
+if [ -f ~/dotfiles/aliases/rails ]; then
+    . ~/dotfiles/aliases/rails
 fi
 
 # Import work related aliases/ENV vars if file is set up.

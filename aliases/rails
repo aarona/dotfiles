@@ -1,0 +1,19 @@
+# Rails aliases
+alias hive="hivemind Procfile.dev"
+alias rn="rails new"
+alias rs="bundle exec rails s"
+alias rc="bundle exec rails c"
+alias rr="bundle exec rails routes"
+alias rg="bundle exec rails g"
+alias rspec="bundle exec rspec"
+alias be="bundle exec"
+alias b="bundle"
+
+# RSpec aliases (gem install rspec-rails)
+alias rspec="bundle exec rspec"
+
+# Gem Audit aliases (gem install bundler-audit)
+alias audit="bundle exec bundle audit check --update"
+
+# Rubocop aliases (gem install rubocop)
+alias cop="bundle exec rubocop"

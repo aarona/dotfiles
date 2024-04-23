@@ -1,0 +1,7 @@
+# Debian-based distro aliases
+alias install="sudo apt install"
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
+alias uplist="apt list --upgradable"
+alias remove="sudo apt autoremove"
+
