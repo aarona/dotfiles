@@ -1,0 +1,14 @@
+[legacy/profiles:]
+default='c4701531-8425-4c1d-9f29-b60488bd6b3c'
+list=['c4701531-8425-4c1d-9f29-b60488bd6b3c']
+
+[legacy/profiles:/:c4701531-8425-4c1d-9f29-b60488bd6b3c]
+audible-bell=false
+background-color='rgb(23,20,33)'
+font='Ubuntu Mono 12'
+foreground-color='rgb(208,207,204)'
+scrollbar-policy='never'
+text-blink-mode='focused'
+use-system-font=false
+use-theme-colors=false
+visible-name='default'
