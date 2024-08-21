@@ -41,7 +41,7 @@ chsh -s $(which zsh)
 # Prompt for logging out to let chsh take place
 read -p "Logout to finish install Zsh? [Yn] " response
 case $response in
-  [Yy]*|"" ) echo "logging out";;
+  [Yy]*|"" ) logout;;
   * ) echo "Be sure to logout to finishing installing Zsh";;
 esac
 
