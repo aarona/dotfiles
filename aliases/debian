@@ -5,3 +5,5 @@ alias upgrade="sudo apt upgrade"
 alias uplist="apt list --upgradable"
 alias remove="sudo apt autoremove"
 
+# Snap-based aliases
+# alias snap-remove="LANG=C snap list --all | awk '/disabled/{print $1\" --revision \"$3}' | xargs -rn3 sudo snap remove

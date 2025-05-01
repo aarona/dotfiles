@@ -1,7 +1,7 @@
 # Rails aliases
 alias hive="hivemind Procfile.dev"
 alias rn="rails new"
-alias rs="bundle exec rails s"
+alias rs="bundle exec rails s -p 3000 -b 0.0.0.0"
 alias rc="bundle exec rails c"
 alias rr="bundle exec rails routes"
 alias rg="bundle exec rails g"
@@ -11,6 +11,8 @@ alias b="bundle"
 
 # RSpec aliases (gem install rspec-rails)
 alias rspec="bundle exec rspec"
+# Run only modified RSpec tests
+alias git-rspec='git status | grep _spec.rb | grep -v "deleted:" | awk '\''{print $NF}'\'' | xargs bundle exec rspec'
 
 # Gem Audit aliases (gem install bundler-audit)
 alias audit="bundle exec bundle audit check --update"

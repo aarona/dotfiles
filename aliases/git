@@ -1,6 +1,8 @@
 # Git related aliases
 alias gs="git status"
 alias gss="git status -s"
+alias unstage="git restore --staged"
+alias discard="git restore"
 alias gl="git log --oneline --all --graph"
 alias gb="git branch"
 alias gba="git branch -a"

@@ -4,3 +4,4 @@ alias df="df -h"
 alias free="free -h"
 
 alias fe="fdfind --type f --hidden --exclude .git | fzf --reverse | xargs -o ${EDITOR-nano}"
+alias ff="fastfetch"
