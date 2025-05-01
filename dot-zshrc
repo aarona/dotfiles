@@ -1,8 +1,18 @@
+# XDG ENV Settings
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_STATE_HOME=$HOME/.local/state
+export XDG_CACHE_HOME=$HOME/.cache
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+
+# Path to your ASDF Data Directory.
+export ASDF_DATA_DIR=~/.asdf
+export PATH="$ASDF_DATA_DIR/shims:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -21,10 +31,20 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# ASDF
+# export ASDF_DATA_DIR="$XDG_DATA_HOME"/asdf
+# export ASDF_DIR=$ASDF_DATA_DIR
+
+export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
+
+# BASH(put in bash)
+# export HISTFILE="${XDG_STATE_HOME}"/bash/history
 # History
 export HISTSIZE=10000
 export SAVEHIST=$HISTSIZE
 export HISTDUP=erase
+export HISTFILE="$XDG_STATE_HOME"/zsh/history
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 setopt appendhistory
 setopt sharehistory
 setopt hist_ignore_space
