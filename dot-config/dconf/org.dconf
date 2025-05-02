@@ -1,0 +1,52 @@
+[gnome/desktop/wm/keybindings]
+close=['<Super>q']
+move-to-workspace-1=['<Shift><Super>1']
+move-to-workspace-2=['<Shift><Super>2']
+move-to-workspace-3=['<Shift><Super>3']
+move-to-workspace-4=['<Shift><Super>4']
+panel-run-dialog=['<Super>r']
+switch-input-source=@as []
+switch-input-source-backward=@as []
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+
+[gnome/settings-daemon/plugins/media-keys]
+calculator=['<Super>c']
+control-center=['<Shift><Super>s']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+home=['<Super>f']
+search=['<Alt>s']
+terminal=['<Super>Return']
+www=['<Super>b']
+
+[gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>p'
+command='echo'
+name='Hide Display Changing'
+
+[gnome/shell/keybindings]
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+toggle-application-view=['<Super>space']
+
+[gnome/terminal/legacy/profiles:]
+default='c4701531-8425-4c1d-9f29-b60488bd6b3c'
+list=['c4701531-8425-4c1d-9f29-b60488bd6b3c']
+
+[gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+use-theme-colors=true
+
+[gnome/terminal/legacy/profiles:/:c4701531-8425-4c1d-9f29-b60488bd6b3c]
+audible-bell=false
+background-color='rgb(23,20,33)'
+font='JetBrainsMono Nerd Font Mono 12'
+foreground-color='rgb(208,207,204)'
+scrollbar-policy='never'
+text-blink-mode='focused'
+use-system-font=false
+use-theme-colors=false
+visible-name='default'
