@@ -1,0 +1,11 @@
+*
+!.gitignore
+!Code/User/settings.json
+!GNOME-xdg-terminals.list
+!btop/btop.conf
+!dconf/org.dconf
+!monitors.xml
+!ubuntu-xdg-terminals.list
+!user-dirs.dirs
+!user-dirs.locale
+!xdg-terminals.list
