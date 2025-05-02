@@ -1,0 +1,63 @@
+{
+  "atomKeymap.promptV3Features": true,
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "node"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 5000,
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.enable": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 100,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "ruby.rubocop.autocorrectOnSave": true,
+  "ruby.rubocop.useBundler": true,
+  "ruby.rubocop.executePath": "~/.asdf/shims/",
+  "ruby.format": "rubocop",
+  "[ruby]": {
+    "editor.defaultFormatter": "LoranKloeze.ruby-rubocop-revived"
+  },
+  "rubyLsp.bundleGemfile": "~/ruby-extensions/Gemfile",
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": false,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "references": true
+  },
+  "rubyLsp.rubyExecutablePath": "~/.asdf/shims/ruby",
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.format.config.printWidth": 100,
+  "svelte.plugin.svelte.format.config.singleQuote": true,
+  "svelte.plugin.svelte.format.config.svelteBracketNewLine": false,
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.quoteStyle": "single",
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {
+    "editor.background": "#212121"
+  },
+  "rubyLsp.featureFlags": {
+    "all": true
+  },
+  "ruby.rubocop.suppressRubocopWarnings": true,
+  "ruby.rubocop.useServer": true
+}
